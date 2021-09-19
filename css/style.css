@@ -1,0 +1,158 @@
+
+.navbar{
+    background: #000;
+}
+.navbar .nav-item{
+    padding-left: 1em;
+}
+.navbar .nav-item:last-child{
+    padding-right: 0;
+}
+.navbar .nav-item .nav-link{
+    text-transform: uppercase;
+}
+.carousel-item{
+    height: 450px;
+}
+.carousel-img-1{
+    background: url(../img/img-8.jpg) no-repeat center;
+    background-size: cover;
+}
+.carousel-img-1 .dark-overlay{
+    background: rgba(0,0,0,0.5);
+    min-height: 500px;
+}
+.carousel-img-2{
+    background: url(../img/img-7.jpg) no-repeat center;
+    background-size: cover;
+}
+.carousel-img-2 .dark-overlay{
+    background: rgba(0,0,0,0.6);
+    min-height: 500px;
+}
+.carousel-img-3{
+    background: url(../img/image3.jpeg) no-repeat center top;
+    background-size: cover;
+}
+.carousel-img-4{
+    background: url(../img/image1.jpeg)no-repeat center;
+    background-size: cover;
+}
+.carousel-img-4 .dark-overlay{
+    background: rgba(0,0,0,0.6);
+    min-height: 500px;
+}
+.carousel-img-5{
+    background: url(../img/image2.jpeg) no-repeat center top;
+    background-size: cover;
+}
+.carousel-img-5 .dark-overlay{
+    background: rgba(0,0,0,0.5);
+    min-height: 500px;
+}
+#icon-section .fa{
+    font-size: 50px;
+}
+#getstart{
+    background: url(../img/bg1.jpeg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#getstart .dark-overlay{
+    background: rgba(0,0,0,0.7)
+}
+
+#home-video{
+    background: url(../img/people.jpeg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#home-video .dark-overlay{
+    background: rgba(0,0,0,0.7);
+}
+#home-video .fa{
+    font-size: 60px;
+    color: #ff0000;
+}
+#photo-gallery img{
+    min-height: 250px;
+}
+#copyright{
+    background: black;
+}
+
+
+
+/* START-ABOUT-SECTION */
+
+#about-header-section{
+    background: url(../img/about.jpg) no-repeat center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 300px;
+}
+#about-header-section .dark-overlay{
+    background: rgba(0,0,0,0,7);
+    min-height: 300px;
+}
+#text-section img{
+    width: 350px;
+    height: 350px;
+}
+#icon-card .fa{
+    font-size: 50px;
+}
+#testimonnial .slick-prev::before,
+#testimonnial .slick-next::before{
+    color: #000;
+}
+
+
+/* START-SERVICES-SECTION */
+#services-header-section{
+    background: url(../img/service.jpg) no-repeat center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 300px;
+}
+#services-header-section .dark-overlay{
+    background: rgba(0,0,0,0.8);
+    min-height: 300px;
+}
+
+/* START_BLOG_SECTION */
+#blog-header-section{
+    background: url(../img/blog.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 300px;
+}
+#blog-header-section .dark-overlay{
+    background: rgba(0,0,0,0.7);
+    min-height: 300px;
+}
+#contact-header-section{
+    background: url(../img/contact.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 300px;
+}
+#contact-header-section .dark-overlay{
+    background: rgba(0,0,0,0.8);
+    min-height: 300px;
+}
+
+@media(max-width:767px){
+    .navbar .nav-item{
+        padding: 0;
+    }
+}
+
+@media(max-width:480px){
+    .carousel h2{
+        font-size: 2.7rem
+    }
+    .carousel p{
+        font-size: 1rem;
+    }
+}
